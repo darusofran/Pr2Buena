@@ -1,0 +1,124 @@
+"R:\Softwares uni\IFGV\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=R:/Softwares uni/IFGV/CLion/bin/ninja/win/x64/ninja.exe" -DCMAKE_PROJECT_TOP_LEVEL_INCLUDES=conan_provider.cmake -G Ninja -S "R:\UNI\IGV\Practica 2\Pr2Buena" -B "R:\UNI\IGV\Practica 2\Pr2Buena\cmake-build-debug"
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: R:/Softwares uni/IFGV/CLion/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: R:/Softwares uni/IFGV/CLion/bin/mingw/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMake-Conan: first find_package() found. Installing dependencies with Conan
+-- CMake-Conan: Checking if a default profile exists
+C:\Users\DARUS\.conan2\profiles\default
+-- CMake-Conan: cmake_system_name=Windows
+-- CMake-Conan: cmake_system_processor=x86_64
+-- CMake-Conan: CMake compiler=GNU
+-- CMake-Conan: CMake compiler version=15.2.0
+-- CMake-Conan: [settings] compiler=gcc
+-- CMake-Conan: [settings] compiler.version=15
+-- CMake-Conan: Creating profile R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/conan_host_profile
+-- CMake-Conan: Profile: 
+include(default)
+[settings]
+arch=x86_64
+os=Windows
+compiler=gcc
+compiler.version=15
+compiler.cppstd=14
+build_type=Debug
+[conf]
+tools.cmake.cmaketoolchain:generator=Ninja
+
+-- CMake-Conan: Installing single configuration Debug
+-- CMake-Conan: conan install R:/UNI/IGV/Practica 2/Pr2Buena -of=R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/conan -pr;R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/conan_host_profile;--build=missing;-g;CMakeDeps
+
+======== Input profiles ========
+Profile host:
+[settings]
+arch=x86_64
+build_type=Debug
+compiler=gcc
+compiler.cppstd=14
+compiler.libcxx=libstdc++11
+compiler.version=15
+os=Windows
+[conf]
+tools.cmake.cmaketoolchain:generator=Ninja
+
+Profile build:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=gcc
+compiler.cppstd=gnu17
+compiler.libcxx=libstdc++11
+compiler.version=15
+os=Windows
+
+
+======== Computing dependency graph ========
+Graph root
+    conanfile.py: R:\UNI\IGV\Practica 2\Pr2Buena\conanfile.py
+Requirements
+    freeglut/3.4.0#5674e666d6bb21d45e778c6b710a213d - Cache
+    glu/system#5f205c4daa8fe4f820869771146885de - Cache
+    khrplatform/cci.20200529#b1ab63bdc5fcef59f4cb2b96749a61cc - Cache
+    opengl/system#cfcf523b9d2bad75cbf377f56562634c - Cache
+    opengl-registry/cci.20220929#fda1f167ad89f7bc2c21e99998c351dc - Cache
+
+======== Computing necessary packages ========
+Requirements
+    freeglut/3.4.0#5674e666d6bb21d45e778c6b710a213d:c873673a0e6be4485eb678e31b899d0c132ea0ba#90001bd6d1aae77b9b3d8e3eef2e7a9d - Cache
+    glu/system#5f205c4daa8fe4f820869771146885de:da39a3ee5e6b4b0d3255bfef95601890afd80709#0ba8627bd47edc3a501e8f0eb9a79e5e - Cache
+    khrplatform/cci.20200529#b1ab63bdc5fcef59f4cb2b96749a61cc:da39a3ee5e6b4b0d3255bfef95601890afd80709#f6ca34b0055eeb66de8e0cb09c284e44 - Cache
+    opengl-registry/cci.20220929#fda1f167ad89f7bc2c21e99998c351dc:da39a3ee5e6b4b0d3255bfef95601890afd80709#26f580fe059036ad87647726361c788f - Cache
+    opengl/system#cfcf523b9d2bad75cbf377f56562634c:da39a3ee5e6b4b0d3255bfef95601890afd80709#0ba8627bd47edc3a501e8f0eb9a79e5e - Cache
+
+======== Installing packages ========
+khrplatform/cci.20200529: Already installed! (1 of 5)
+opengl/system: Already installed! (2 of 5)
+glu/system: Already installed! (3 of 5)
+opengl-registry/cci.20220929: Already installed! (4 of 5)
+freeglut/3.4.0: Already installed! (5 of 5)
+WARN: deprecated: Usage of deprecated Conan 1.X features that will be removed in Conan 2.X:
+WARN: deprecated:     'cpp_info.filenames' used in: opengl/system
+WARN: deprecated:     'cpp_info.names' used in: freeglut/3.4.0
+
+======== Finalizing install (deploy, generators) ========
+>>> Generate step for conanfile.py
+Generators folder: R:\UNI\IGV\Practica 2\Pr2Buena\cmake-build-debug\conan\build\Debug\generators
+Generator 'CMakeDeps' calling 'generate()'
+CMakeDeps necessary find_package() and targets for your CMakeLists.txt
+    find_package(opengl-registry)
+    find_package(FreeGLUT)
+    find_package(opengl_system)
+    target_link_libraries(... opengl-registry::opengl-registry FreeGLUT::freeglut_static opengl::opengl)
+Calling generate() method in recipe
+CMakeToolchain generated: conan_toolchain.cmake
+CMakeToolchain: Preset 'conan-debug' added to CMakePresets.json.
+    (cmake>=3.23) cmake --preset conan-debug
+    (cmake<3.23) cmake <path> -G Ninja
+                 -DCMAKE_TOOLCHAIN_FILE=<output_folder>/generators\conan_toolchain.cmake 
+                 -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Debug
+CMakeToolchain generated: R:\UNI\IGV\Practica 2\Pr2Buena\cmake-build-debug\conan\build\Debug\generators\CMakePresets.json
+Generating aggregated env files
+Generated aggregated env files: ['conanbuild.bat', 'conanrun.bat']
+Install finished successfully
+-- CMake-Conan: CONAN_GENERATORS_FOLDER=R:\UNI\IGV\Practica 2\Pr2Buena\cmake-build-debug\conan\build\Debug\generators
+-- CMake-Conan: CONANFILE=R:/UNI/IGV/Practica 2/Pr2Buena/conanfile.py
+-- Conan: Target declared 'opengl::opengl'
+-- CMake-Conan: find_package(opengl-registry) found, 'conan install' already ran
+-- Conan: Target declared 'opengl-registry::opengl-registry'
+-- CMake-Conan: find_package(khrplatform) found, 'conan install' already ran
+-- Conan: Target declared 'khrplatform::khrplatform'
+-- CMake-Conan: find_package(FreeGLUT) found, 'conan install' already ran
+-- Conan: Component target declared 'FreeGLUT::freeglut_static'
+-- CMake-Conan: find_package(glu) found, 'conan install' already ran
+-- Conan: Target declared 'glu::glu'
+-- Configuring done (3.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug

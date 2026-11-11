@@ -1,0 +1,50 @@
+[
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\igvCamara.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\igvCamara.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/igvCamara.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/igvCamara.cpp.obj"
+},
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\igvCilindro.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\igvCilindro.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/igvCilindro.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/igvCilindro.cpp.obj"
+},
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\igvEscena3D.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\igvEscena3D.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/igvEscena3D.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/igvEscena3D.cpp.obj"
+},
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\igvInterfaz.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\igvInterfaz.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/igvInterfaz.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/igvInterfaz.cpp.obj"
+},
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\igvMallaTriangulos.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\igvMallaTriangulos.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/igvMallaTriangulos.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/igvMallaTriangulos.cpp.obj"
+},
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\igvSuperficieRevolucion.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\igvSuperficieRevolucion.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/igvSuperficieRevolucion.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/igvSuperficieRevolucion.cpp.obj"
+},
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\igvPunto3D.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\igvPunto3D.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/igvPunto3D.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/igvPunto3D.cpp.obj"
+},
+{
+  "directory": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug",
+  "command": "\"R:\\Softwares uni\\IFGV\\CLion\\bin\\mingw\\bin\\c++.exe\" -DFREEGLUT_LIB_PRAGMAS=0 -DFREEGLUT_STATIC=1 -I\"R:/UNI/IGV/Practica 2/Pr2Buena/.\" -isystem C:/Users/DARUS/.conan2/p/openg599e77efdc939/p/include -isystem C:/Users/DARUS/.conan2/p/khrpl54278e0c9b4ae/p/include -isystem C:/Users/DARUS/.conan2/p/b/freeg39f81671a0aa1/p/include -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\pr2a.dir\\pr2a.cpp.obj -c \"R:\\UNI\\IGV\\Practica 2\\Pr2Buena\\pr2a.cpp\"",
+  "file": "R:/UNI/IGV/Practica 2/Pr2Buena/pr2a.cpp",
+  "output": "R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir/pr2a.cpp.obj"
+}
+]

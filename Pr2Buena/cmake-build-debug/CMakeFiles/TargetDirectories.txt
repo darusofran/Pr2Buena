@@ -1,0 +1,3 @@
+R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/pr2a.dir
+R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/edit_cache.dir
+R:/UNI/IGV/Practica 2/Pr2Buena/cmake-build-debug/CMakeFiles/rebuild_cache.dir
